@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 import {
   Github,
   Linkedin,
-  MessageCircle,
+  Instagram,
+  Music2,
   Copy,
   Check,
   FileDown,
@@ -12,17 +13,16 @@ import {
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import useSWR from "swr";
-import cvPdf from "@/assets/files/cv_pdf/Niladri_Chatterjee(CV).pdf";
+import cvPdf from "@/assets/files/cv_pdf/HiramGabrielCV.pdf";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const Home = () => {
   const [copied, setCopied] = useState(false);
-  const email = "code.niladri@gmail.com";
-  const whatsappNumber = "+916296554939";
+  const email = "rusty3031@gmail.com";
 
   const { data: githubData } = useSWR(
-    "https://api.github.com/users/niladri-1",
+    "https://api.github.com/users/hiramgabriel1",
     fetcher,
     {
       revalidateOnFocus: false,
@@ -68,7 +68,7 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Niladri Chatterjee
+          Hiram Gabriel
         </motion.h1>
         <motion.h1
           className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4 sm:mb-6 relative tracking-tighter"
@@ -76,7 +76,7 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          I design & code for web
+          Full Stack Developer
         </motion.h1>
 
         <motion.p
@@ -85,8 +85,8 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Software Developer specializing in Full Stack Development with
-          expertise in React.js, Node.js and modern Web Technologies.
+            Full Stack Developer from Sonora, México, with expertise in
+            React.js, Node.js and modern Web Technologies.
         </motion.p>
 
         <motion.div
@@ -144,13 +144,13 @@ const Home = () => {
         </motion.div>
 
         <motion.div
-          className="grid grid-cols-3 justify-items-center gap-6 mt-8 sm:mt-12 max-w-xs sm:max-w-none mx-auto"
+          className="grid grid-cols-4 justify-items-center gap-6 mt-8 sm:mt-12 max-w-xs sm:max-w-none mx-auto"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
           <motion.a
-            href="https://github.com/niladri-1"
+            href="https://github.com/hiramgabriel1"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center group w-full"
@@ -176,7 +176,7 @@ const Home = () => {
           </motion.a>
 
           <motion.a
-            href="https://linkedin.com/in/niladri1"
+            href="https://www.linkedin.com/in/hiramgabriel/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center group w-full"
@@ -200,15 +200,15 @@ const Home = () => {
           </motion.a>
 
           <motion.a
-            href={`https://wa.me/${whatsappNumber}`}
+            href="https://instagram.com/hiram.dev"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center group w-full"
             whileHover={{ y: -2 }}
-            aria-label="Contact via WhatsApp"
+            aria-label="Visit Instagram profile"
           >
             <div className="p-3 rounded-xl transition-colors mb-2 w-full max-w-[200px]">
-              <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6 text-gray-400 group-hover:text-white transition-colors mx-auto" />
+              <Instagram className="w-5 h-5 sm:w-6 sm:h-6 text-gray-400 group-hover:text-white transition-colors mx-auto" />
             </div>
             <motion.div
               className="flex flex-col items-center"
@@ -216,9 +216,33 @@ const Home = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.8 }}
             >
-              <span className="text-base sm:text-lg font-semibold">24x7</span>
+              <span className="text-base sm:text-lg font-semibold">@hiram.dev</span>
               <span className="text-xs sm:text-sm text-gray-400">
-                WhatsApp Me
+                Instagram
+              </span>
+            </motion.div>
+          </motion.a>
+
+          <motion.a
+            href="https://tiktok.com/@hiram.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex flex-col items-center group w-full"
+            whileHover={{ y: -2 }}
+            aria-label="Visit TikTok profile"
+          >
+            <div className="p-3 rounded-xl transition-colors mb-2 w-full max-w-[200px]">
+              <Music2 className="w-5 h-5 sm:w-6 sm:h-6 text-gray-400 group-hover:text-white transition-colors mx-auto" />
+            </div>
+            <motion.div
+              className="flex flex-col items-center"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.8 }}
+            >
+              <span className="text-base sm:text-lg font-semibold">@hiram.dev</span>
+              <span className="text-xs sm:text-sm text-gray-400">
+                TikTok
               </span>
             </motion.div>
           </motion.a>

@@ -7,56 +7,40 @@ import Loading from "./components/Loading";
 
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
-const Education = lazy(() => import("./pages/Education"));
+
 const Experience = lazy(() => import("./pages/Experience"));
-const Skills = lazy(() => import("./pages/Skills"));
+
 const Projects = lazy(() => import("./pages/Projects"));
-const Certificates = lazy(() => import("./pages/Certificates"));
-const Contact = lazy(() => import("./pages/Contact"));
+
+
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 // Per-page SEO metadata
 const pageMeta = {
   "/": {
-    title: "Niladri Chatterjee - Full Stack Developer | MERN Stack Expert",
+    title: "Hiram Gabriel - Full Stack Developer",
     description:
-      "Niladri Chatterjee — Full Stack Developer specializing in MERN stack, React.js, Node.js, Next.js and TypeScript. Based in Kolkata, India.",
+      "Hiram Gabriel — Full Stack Developer specializing in React.js, Node.js and modern Web Technologies. Based in Sonora, México.",
   },
   "/about": {
-    title: "About - Niladri Chatterjee | Full Stack Developer",
+    title: "About - Hiram Gabriel | Full Stack Developer",
     description:
-      "Learn about Niladri Chatterjee — B.Tech Computer Science graduate, Full Stack Developer with 3+ internships and 10+ projects. Based in Kolkata, India.",
+      "Learn about Hiram Gabriel — Full Stack Developer from Sonora, México with expertise in React.js, Node.js and modern web technologies.",
   },
   "/projects": {
-    title: "Projects - Niladri Chatterjee | Full Stack Developer Portfolio",
+    title: "Projects - Hiram Gabriel | Full Stack Developer Portfolio",
     description:
-      "Explore full-stack web projects built by Niladri Chatterjee using React.js, Node.js, MongoDB, Next.js and TypeScript.",
+      "Explore projects built by Hiram Gabriel using React.js, Node.js, MongoDB and modern web technologies.",
   },
-  "/skills": {
-    title: "Skills - Niladri Chatterjee | React, Node.js, MERN Stack",
-    description:
-      "Technical skills of Niladri Chatterjee — React.js, Node.js, Express, MongoDB, Next.js, TypeScript, AWS, Docker and more.",
-  },
+
   "/experience": {
-    title: "Experience - Niladri Chatterjee | Full Stack Developer",
+    title: "Experience - Hiram Gabriel | Full Stack Developer",
     description:
-      "Professional experience of Niladri Chatterjee including 3+ internships in full stack web development.",
+      "Professional experience of Hiram Gabriel in full stack web development.",
   },
-  "/education": {
-    title: "Education - Niladri Chatterjee | B.Tech Computer Science",
-    description:
-      "Educational background of Niladri Chatterjee — B.Tech in Computer Science with 8.48 CGPA.",
-  },
-  "/certificates": {
-    title: "Certificates - Niladri Chatterjee | Developer Certifications",
-    description:
-      "Professional certifications and achievements of Niladri Chatterjee in web development and cloud technologies.",
-  },
-  "/contact": {
-    title: "Contact - Niladri Chatterjee | Hire a Full Stack Developer",
-    description:
-      "Get in touch with Niladri Chatterjee for freelance projects, job opportunities or collaborations. Based in Kolkata, India.",
-  },
+
+
+
 };
 
 // Hook to update document title + meta description on route change
@@ -65,9 +49,9 @@ function SEOUpdater() {
 
   useEffect(() => {
     const meta = pageMeta[location.pathname] || {
-      title: "Niladri Chatterjee - Full Stack Developer",
+      title: "Hiram Gabriel - Full Stack Developer",
       description:
-        "Portfolio of Niladri Chatterjee — Full Stack Developer specializing in MERN stack and modern web technologies.",
+        "Portfolio of Hiram Gabriel — Full Stack Developer specializing in React.js, Node.js and modern web technologies.",
     };
 
     document.title = meta.title;
@@ -85,14 +69,14 @@ function SEOUpdater() {
     if (ogUrl)
       ogUrl.setAttribute(
         "content",
-        `https://niladri1.vercel.app${location.pathname}`,
+        `https://hiramgabriel1.vercel.app${location.pathname}`,
       );
 
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical)
       canonical.setAttribute(
         "href",
-        `https://niladri1.vercel.app${location.pathname}`,
+        `https://hiramgabriel1.vercel.app${location.pathname}`,
       );
   }, [location]);
 
@@ -111,12 +95,12 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
-              <Route path="/education" element={<Education />} />
+
               <Route path="/experience" element={<Experience />} />
-              <Route path="/skills" element={<Skills />} />
+
               <Route path="/projects" element={<Projects />} />
-              <Route path="/certificates" element={<Certificates />} />
-              <Route path="/contact" element={<Contact />} />
+
+
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Suspense>

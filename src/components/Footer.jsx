@@ -7,12 +7,12 @@ const Footer = () => {
   const pageLinks = [
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
-    { name: 'Education', path: '/education' },
+
     { name: 'Experience', path: '/experience' },
-    { name: 'Skills', path: '/skills' },
+
     { name: 'Projects', path: '/projects' },
-    { name: 'Certificates', path: '/certificates' },
-    { name: 'Contact', path: '/contact' },
+
+
   ]
 
   const column1 = pageLinks.slice(0, 3)
@@ -29,10 +29,10 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="flex items-center space-x-3">
               <Code2 className="w-8 h-8 text-white" aria-hidden="true" />
-              <span className="text-xl font-bold text-white">Niladri Chatterjee</span>
+              <span className="text-xl font-bold text-white">Hiram Gabriel</span>
             </Link>
             <p className="text-sm text-gray-400">
-              Software Developer based in Kolkata, WB, India.
+              Software Developer based in Sonora, México.
             </p>
           </div>
 
@@ -42,22 +42,22 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="mailto:code.niladri@gmail.com"
+                  href="mailto:rusty3031@gmail.com"
                   className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2"
-                  aria-label="Email Niladri Chatterjee"
+                  aria-label="Email Hiram Gabriel"
                 >
                   <Mail className="w-4 h-4" aria-hidden="true" />
-                  code.niladri@gmail.com
+                  rusty3031@gmail.com
                 </a>
               </li>
               <li>
                 <a
-                  href="tel:+916296554939"
+                  href="tel:+528146826881"
                   className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2"
-                  aria-label="Call Niladri Chatterjee"
+                  aria-label="Call Hiram Gabriel"
                 >
                   <Phone className="w-4 h-4" aria-hidden="true" />
-                  +916296554939
+                  +528146826881
                 </a>
               </li>
             </ul>
@@ -108,7 +108,7 @@ const Footer = () => {
             <h3 className="text-sm font-semibold text-white">Social</h3>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/niladri-1"
+                href="https://github.com/hiramgabriel1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -117,7 +117,7 @@ const Footer = () => {
                 <Github className="w-5 h-5" aria-hidden="true" />
               </a>
               <a
-                href="https://linkedin.com/in/niladri1"
+                href="https://www.linkedin.com/in/hiramgabriel/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -126,7 +126,7 @@ const Footer = () => {
                 <Linkedin className="w-5 h-5" aria-hidden="true" />
               </a>
               <a
-                href="mailto:code.niladri@gmail.com"
+                href="mailto:rusty3031@gmail.com"
                 className="text-gray-400 hover:text-white transition-colors"
                 aria-label="Email"
               >
@@ -140,14 +140,14 @@ const Footer = () => {
         <div className="border-t border-white/10 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-gray-400">
-              © {currentYear} Niladri Chatterjee. All rights reserved.
+              © {currentYear} Hiram Gabriel. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <span className="text-sm text-gray-400 flex items-center gap-2">
                 <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
                   <path d="M12 1L24 22H0L12 1Z" />
                 </svg>
-                Niladri's Portfolio
+                Hiram's Portfolio
               </span>
             </div>
           </div>

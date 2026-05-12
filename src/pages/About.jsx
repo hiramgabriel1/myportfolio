@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Code2, Briefcase, GraduationCap, Globe } from "lucide-react";
 import { ScrollAnimation } from "@/components/ScrollAnimation";
 import profileImg from "@/assets/profile/profile.jpg";
-import cvPdf from "@/assets/files/cv_pdf/Niladri_Chatterjee(CV).pdf";
+import cvPdf from "@/assets/files/cv_pdf/HiramGabrielCV.pdf";
 
 const About = () => {
   const achievements = [
@@ -46,7 +46,7 @@ const About = () => {
           <div className="aspect-square overflow-hidden rounded-2xl">
             <img
               src={profileImg}
-              alt="Niladri Chatterjee"
+              alt="Hiram Gabriel"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
@@ -82,7 +82,7 @@ const About = () => {
               </h3>
               <ul className="list-none space-y-3">
                 {[
-                  "Based in Kolkata, WB, India",
+                  "Based in Sonora, México",
                   "B.Tech in Computer Science",
                   "CGPA: 8.48",
                 ].map((fact) => (

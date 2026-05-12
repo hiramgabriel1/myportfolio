@@ -4,18 +4,19 @@
  */
 
 export const CONTACT_INFO = {
-  email: 'code.niladri@gmail.com',
-  phone: '+916296554939',
-  whatsapp: '+916296554939',
-  location: 'Kolkata, West Bengal, India',
-  timezone: 'IST (UTC+5:30)',
-  github: 'https://github.com/niladri-1',
-  linkedin: 'https://linkedin.com/in/niladri1',
-  twitter: '@niladri_dev',
+  email: 'rusty3031@gmail.com',
+  phone: '+528146826881',
+  whatsapp: '+528146826881',
+  location: 'Sonora, México',
+  timezone: 'MST (UTC-7)',
+  github: 'https://github.com/hiramgabriel1',
+  linkedin: 'https://www.linkedin.com/in/hiramgabriel/',
+  instagram: 'https://instagram.com/hiram.dev',
+  tiktok: 'https://tiktok.com/@hiram.dev',
 }
 
 export const OFFICE_HOURS = {
-  weekday: 'Monday - Friday: 9:00 AM - 6:00 PM (IST)',
-  saturday: 'Saturday: 10:00 AM - 2:00 PM (IST)',
+  weekday: 'Monday - Friday: 9:00 AM - 6:00 PM (MST)',
+  saturday: 'Saturday: 10:00 AM - 2:00 PM (MST)',
   sunday: 'Sunday: Closed',
 }

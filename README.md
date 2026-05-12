@@ -1,23 +1,23 @@
 <div align="center">
 
-# Niladri Chatterjee — Portfolio 🚀
+# Hiram Gabriel — Portfolio 🚀
 
-[![Website](https://img.shields.io/website?label=Live%20Portfolio&style=for-the-badge&url=https%3A%2F%2Fniladri1.vercel.app)](https://niladri1.vercel.app)
-[![GitHub followers](https://img.shields.io/github/followers/niladri-1?logo=github&style=for-the-badge)](https://github.com/niladri-1)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-4000%2B%20Followers-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/niladri1)
-[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://niladri1.vercel.app)
+[![Website](https://img.shields.io/website?label=Live%20Portfolio&style=for-the-badge&url=https%3A%2F%2Fhiramgabriel1.vercel.app)](https://hiramgabriel1.vercel.app)
+[![GitHub followers](https://img.shields.io/github/followers/hiramgabriel1?logo=github&style=for-the-badge)](https://github.com/hiramgabriel1)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-hiramgabriel-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/hiramgabriel/)
+[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://hiramgabriel1.vercel.app)
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,vite,typescript,tailwind,nodejs,mongodb,express,git" alt="Tech Stack Icons" />
 </p>
 
-<h3>Full Stack Developer · MERN Stack Specialist · Kolkata, India</h3>
+<h3>Full Stack Developer · Sonora, México</h3>
 
-[🌐 View Live](https://niladri1.vercel.app) · [🐛 Report Bug](https://github.com/niladri-1/Software-Dev-Portfolio/issues) · [✨ Request Feature](https://github.com/niladri-1/Software-Dev-Portfolio/issues)
+[🌐 View Live](https://hiramgabriel1.vercel.app) · [🐛 Report Bug](https://github.com/hiramgabriel1/Personal-portfolio/issues) · [✨ Request Feature](https://github.com/hiramgabriel1/Personal-portfolio/issues)
 
 <br/>
 
-<img src="https://niladri1.vercel.app/og-image.png" alt="Niladri Chatterjee Portfolio Preview" width="80%" style="border-radius: 12px;" />
+<img src="https://hiramgabriel1.vercel.app/og-image.png" alt="Hiram Gabriel Portfolio Preview" width="80%" style="border-radius: 12px;" />
 
 </div>
 
@@ -114,7 +114,7 @@ A modern, fully responsive personal portfolio built with **React 18 + Vite 5** a
 
 ```bash
 # Clone the repository
-git clone https://github.com/niladri-1/niladri-1/Personal-portfolio
+git clone https://github.com/hiramgabriel1/hiramgabriel1/Personal-portfolio
 
 # Navigate to project
 cd Personal-portfolio
@@ -173,9 +173,9 @@ This portfolio is fully SEO-optimized:
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-code.niladri%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:code.niladri@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-niladri1-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/niladri1)
-[![Portfolio](https://img.shields.io/badge/Portfolio-niladri1.vercel.app-orange?style=for-the-badge&logo=vercel)](https://niladri1.vercel.app)
+[![Email](https://img.shields.io/badge/Email-rusty3031%40gmail.com-red?style=for-the-badge&logo=gmail)](mailto:rusty3031@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-hiramgabriel-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/hiramgabriel/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-hiramgabriel1.vercel.app-orange?style=for-the-badge&logo=vercel)](https://hiramgabriel1.vercel.app)
 
 </div>
 
@@ -185,9 +185,9 @@ This portfolio is fully SEO-optimized:
 
 <div align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=niladri-1&theme=dark&hide_border=true)](https://github.com/niladri-1)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=hiramgabriel1&theme=dark&hide_border=true)](https://github.com/hiramgabriel1)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=niladri-1&layout=compact&theme=dark&hide_border=true)](https://github.com/niladri-1)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hiramgabriel1&layout=compact&theme=dark&hide_border=true)](https://github.com/hiramgabriel1)
 
 </div>
 
@@ -200,7 +200,7 @@ This portfolio is fully SEO-optimized:
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
-[![Visitors](https://api.visitorbadge.io/api/visitors?path=niladri-1%2FSoftware-Dev-Portfolio&label=Visitors&labelColor=%23000000&countColor=%2322d3ee)](https://visitorbadge.io/status?path=niladri-1%2FSoftware-Dev-Portfolio)
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=hiramgabriel1%2FPersonal-portfolio&label=Visitors&labelColor=%23000000&countColor=%2322d3ee)](https://visitorbadge.io/status?path=hiramgabriel1%2FPersonal-portfolio)
 
 <h3>⭐ Star this repo if you found it helpful!</h3>
 

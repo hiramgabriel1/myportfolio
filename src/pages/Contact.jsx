@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Mail, Phone, MapPin, Github, Linkedin, MessageCircle, Clock, Send, MessageSquare } from 'lucide-react'
+import { Mail, Phone, MapPin, Github, Linkedin, Instagram, Music2, Clock, Send, MessageSquare } from 'lucide-react'
 import { useState } from 'react'
 
 const Contact = () => {
@@ -33,16 +33,17 @@ const Contact = () => {
   }
 
   const contactInfo = [
-    { icon: <Mail className="w-5 h-5" />, label: 'Email', value: 'code.niladri@gmail.com', link: 'mailto:code.niladri@gmail.com' },
-    { icon: <Phone className="w-5 h-5" />, label: 'Phone', value: '+916296554939', link: 'tel:+916296554939' },
-    { icon: <MapPin className="w-5 h-5" />, label: 'Location', value: 'Kolkata, West Bengal, India' },
-    { icon: <Clock className="w-5 h-5" />, label: 'Time Zone', value: 'IST (UTC+5:30)' },
+    { icon: <Mail className="w-5 h-5" />, label: 'Email', value: 'rusty3031@gmail.com', link: 'mailto:rusty3031@gmail.com' },
+    { icon: <Phone className="w-5 h-5" />, label: 'Phone', value: '+528146826881', link: 'tel:+528146826881' },
+    { icon: <MapPin className="w-5 h-5" />, label: 'Location', value: 'Sonora, México' },
+    { icon: <Clock className="w-5 h-5" />, label: 'Time Zone', value: 'MST (UTC-7)' },
   ]
 
   const socialLinks = [
-    { icon: <Github className="w-5 h-5" />, label: 'GitHub', link: 'https://github.com/niladri-1' },
-    { icon: <Linkedin className="w-5 h-5" />, label: 'LinkedIn', link: 'https://linkedin.com/in/niladri1' },
-    { icon: <MessageCircle className="w-5 h-5" />, label: 'WhatsApp', link: 'https://wa.me/+916296554939' },
+    { icon: <Github className="w-5 h-5" />, label: 'GitHub', link: 'https://github.com/hiramgabriel1' },
+    { icon: <Linkedin className="w-5 h-5" />, label: 'LinkedIn', link: 'https://www.linkedin.com/in/hiramgabriel/' },
+    { icon: <Instagram className="w-5 h-5" />, label: 'Instagram', link: 'https://instagram.com/hiram.dev' },
+    { icon: <Music2 className="w-5 h-5" />, label: 'TikTok', link: 'https://tiktok.com/@hiram.dev' },
   ]
 
   return (
@@ -133,8 +134,8 @@ const Contact = () => {
             >
               <h3 className="text-lg sm:text-xl font-semibold mb-4">Office Hours</h3>
               <div className="space-y-2 text-gray-400 text-sm sm:text-base">
-                <p>Monday - Friday: 9:00 AM - 6:00 PM (IST)</p>
-                <p>Saturday: 10:00 AM - 2:00 PM (IST)</p>
+                <p>Monday - Friday: 9:00 AM - 6:00 PM (MST)</p>
+                <p>Saturday: 10:00 AM - 2:00 PM (MST)</p>
                 <p>Sunday: Closed</p>
               </div>
             </motion.div>
