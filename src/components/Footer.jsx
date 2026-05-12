@@ -6,7 +6,7 @@ const Footer = () => {
 
   const pageLinks = [
     { name: 'Home', path: '/' },
-    { name: 'About', path: '/about' },
+
 
     { name: 'Experience', path: '/experience' },
 

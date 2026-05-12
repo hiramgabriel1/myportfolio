@@ -8,9 +8,7 @@ import {
   Copy,
   Check,
   FileDown,
-  User,
 } from "lucide-react";
-import { Link } from "react-router-dom";
 import { useState } from "react";
 import useSWR from "swr";
 import cvPdf from "@/assets/files/cv_pdf/HiramGabrielCV.pdf";
@@ -105,13 +103,6 @@ const Home = () => {
               <FileDown className="w-4 h-4 sm:w-5 sm:h-5" aria-hidden="true" />
               Download CV
             </a>
-            <Link
-              to="/about"
-              className="px-4 sm:px-6 py-2.5 sm:py-3 bg-white/10 text-white rounded-full text-sm sm:text-base font-medium hover:bg-white/20 transition-colors flex items-center gap-2"
-            >
-              <User className="w-4 h-4 sm:w-5 sm:h-5" aria-hidden="true" />
-              About Me
-            </Link>
           </div>
 
           <button

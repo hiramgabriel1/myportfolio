@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import Loading from "./components/Loading";
 
 const Home = lazy(() => import("./pages/Home"));
-const About = lazy(() => import("./pages/About"));
+
 
 const Experience = lazy(() => import("./pages/Experience"));
 
@@ -22,11 +22,7 @@ const pageMeta = {
     description:
       "Hiram Gabriel — Full Stack Developer specializing in React.js, Node.js and modern Web Technologies. Based in Sonora, México.",
   },
-  "/about": {
-    title: "About - Hiram Gabriel | Full Stack Developer",
-    description:
-      "Learn about Hiram Gabriel — Full Stack Developer from Sonora, México with expertise in React.js, Node.js and modern web technologies.",
-  },
+
   "/projects": {
     title: "Projects - Hiram Gabriel | Full Stack Developer Portfolio",
     description:
@@ -94,7 +90,7 @@ function App() {
           <Suspense fallback={<Loading />}>
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
+
 
               <Route path="/experience" element={<Experience />} />
 

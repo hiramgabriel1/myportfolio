@@ -9,12 +9,7 @@ const searchData = [
     path: '/',
     keywords: ['home', 'cv', 'resume', 'start', 'welcome', 'portfolio', 'hiram', 'hiram gabriel', 'hiramgabriel1', 'software developer', 'full stack developer', 'web developer'],
   },
-  {
-    title: 'About',
-    description: 'Learn more about me and my background',
-    path: '/about',
-    keywords: ['about', 'background', 'education', 'bio', 'profile', 'cv', 'resume', 'hiram', 'gabriel', 'full stack developer', 'software engineer', 'web developer'],
-  },
+
 
   {
     title: 'Experience',
