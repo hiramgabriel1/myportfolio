@@ -1,8 +1,6 @@
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 import { Code2, Briefcase, GraduationCap, Globe } from "lucide-react";
 import { ScrollAnimation } from "@/components/ScrollAnimation";
-import profileImg from "@/assets/profile/profile.jpg";
 import cvPdf from "@/assets/files/cv_pdf/HiramGabrielCV.pdf";
 
 const About = () => {
@@ -41,17 +39,7 @@ const About = () => {
         </motion.h2>
       </ScrollAnimation>
 
-      <div className="grid md:grid-cols-2 gap-8">
-        <ScrollAnimation>
-          <div className="aspect-square overflow-hidden rounded-2xl">
-            <img
-              src={profileImg}
-              alt="Hiram Gabriel"
-              className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-            />
-          </div>
-        </ScrollAnimation>
-
+      <div className="grid md:grid-cols-1 gap-8">
         <ScrollAnimation className="space-y-6">
           <div className="space-y-4">
             <p className="text-gray-300 leading-relaxed">
@@ -99,7 +87,7 @@ const About = () => {
           </ScrollAnimation>
 
           <ScrollAnimation>
-            <div className="flex justify-start space-x-4">
+            <div className="flex justify-start">
               <a
                 href={cvPdf}
                 target="_blank"
@@ -108,12 +96,6 @@ const About = () => {
               >
                 Download CV
               </a>
-              <Link
-                to="/skills"
-                className="px-6 py-3 bg-white/10 text-white rounded-full font-medium hover:bg-white/20 transition-colors"
-              >
-                My Skills
-              </Link>
             </div>
           </ScrollAnimation>
         </ScrollAnimation>

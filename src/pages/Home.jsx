@@ -144,7 +144,7 @@ const Home = () => {
         </motion.div>
 
         <motion.div
-          className="grid grid-cols-4 justify-items-center gap-6 mt-8 sm:mt-12 max-w-xs sm:max-w-none mx-auto"
+          className="grid grid-cols-3 justify-items-center gap-6 mt-8 sm:mt-12 max-w-xs sm:max-w-none mx-auto"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6 }}
@@ -171,30 +171,6 @@ const Home = () => {
               </span>
               <span className="text-xs sm:text-sm text-gray-400">
                 GitHub Projects
-              </span>
-            </motion.div>
-          </motion.a>
-
-          <motion.a
-            href="https://www.linkedin.com/in/hiramgabriel/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex flex-col items-center group w-full"
-            whileHover={{ y: -2 }}
-            aria-label="Visit LinkedIn profile"
-          >
-            <div className="p-3 rounded-xl transition-colors mb-2 w-full max-w-[200px]">
-              <Linkedin className="w-5 h-5 sm:w-6 sm:h-6 text-gray-400 group-hover:text-white transition-colors mx-auto" />
-            </div>
-            <motion.div
-              className="flex flex-col items-center"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.8 }}
-            >
-              <span className="text-base sm:text-lg font-semibold">4000+</span>
-              <span className="text-xs sm:text-sm text-gray-400">
-                LinkedIn Followers
               </span>
             </motion.div>
           </motion.a>
