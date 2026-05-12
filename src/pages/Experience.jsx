@@ -9,6 +9,20 @@ import { ScrollAnimation } from "@/components/ScrollAnimation";
 
 const experiences = [
   {
+    title: "Full Stack Engineer (Startup AI)",
+    company: "Sthorme",
+    location: "Remote",
+    period: "Diciembre 2025 – Presente",
+    type: "Full-time",
+    description: [
+      "Formo parte del desarrollo de una startup en etapa temprana enfocada en construir una plataforma SaaS de marketing intelligence impulsada por IA, orientada al análisis de métricas de redes sociales como Instagram y Facebook mediante lenguaje natural",
+      "Participo en la construcción del producto desde cero, colaborando en decisiones de arquitectura, desarrollo full stack y evolución del producto",
+      "Lidero principalmente el desarrollo frontend utilizando Next.js y TypeScript, diseñando interfaces modernas, escalables y centradas en el usuario",
+      "Colaboro en la integración con servicios backend en Python (FastAPI), contribuyendo a la generación de insights accionables y a la iteración continua del producto basada en feedback de usuarios",
+    ],
+    stack: "Python, FastAPI, Next.js, TypeScript, Redis, Docker, AWS",
+  },
+  {
     title: "Fullstack Software Engineer",
     company: "Atrato Pago (YC W21)",
     location: "Remote",
